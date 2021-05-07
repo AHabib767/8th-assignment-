@@ -1,0 +1,391 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+/*
+  author:Adnan Habib;
+  mail:mdhabib7679@gmail.com;
+
+*/
+
+/*
+
+====Index====
+1.Header
+2.Fusce at       
+3. Facilisis 
+4.Ante donec 
+5.Blandit rhoncus
+6.Placerat
+7.Footer
+
+*/
+/*Global css*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+h4{
+	font-size: 30px;
+	color: white;
+	font-weight: 700;
+	margin-top: 20px;
+}
+h6{
+	font-size: 15px;
+	color: white;
+	font-weight: 300;
+	line-height: 30px;
+}
+h5{
+	font-size: 24px;
+	color: black;
+	margin-top: 27px;
+    font-weight: 700;
+    text-align: center;
+}
+.food-one {
+    text-align: center;
+
+}
+p {
+    font-size: 15px;
+    color: #63676e;
+    line-height: 33px;
+}
+
+.hero-btn{
+	color: #612316;
+	font-size: 18px;
+    padding: 11px 43px;
+    border-radius: 30px;
+    border-color: green;
+    margin: 0 auto;
+   margin-top: 50px;
+   margin-bottom: 105px;
+}
+.news-btn {
+    color: #95979b;
+    font-size: 15px;
+    border-radius: 30px;
+    padding: 6px 37px;
+    color: #5a5d64;
+    margin-bottom: 73px;
+    border: none;
+    background: white;
+}
+	/* theme css*/
+
+         /*navigation section*/
+
+.nav-head{
+	padding: 33px 0px;
+	background: #edeff1;
+}
+.nav-link{
+	color: #31353e;
+	margin: 0px 12px;
+}
+.nav-link.js-scroll-trigger.active{
+	background-color: yellow;
+	color: white;
+    border-radius: 50px;
+	padding: 8px 22px;
+
+}
+       /*hero section*/
+
+.hero{
+	background: url(../img/back.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+
+}
+.hero-main{
+
+    margin-top: 425px;
+    margin-bottom: 75px;
+}
+.hero-main h2{
+	font-size: 60px;
+    color: white;
+    text-align: center;
+
+}
+.hero-main h3{
+	font-size: 30px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+
+}
+		/* News section  */
+
+.News{
+	background: #edeff1;
+}
+.news-head {
+    text-align: center;
+    padding: 62px;
+    font-size: 30px;
+    font-weight: 700;
+}	
+.food-two {
+   
+    text-align: center;
+}
+/* newsletter section*/
+.newsletter{
+	background: url(../img/back02.jpg);
+	background-size: cover;
+	background-position: center top;
+}
+.news-content {
+    color: white;
+    margin: 0 auto;
+    padding: 62px 0px 27px;
+    text-align: center;
+}
+.news-content p {
+    color: white;
+    line-height: 25px;
+
+}
+.form-content{
+	text-align: center;
+}
+.form-control {
+    border-radius: 30px;
+    background: transparent;
+    padding: 21px 28px;
+    position: relative;
+    margin-bottom: 85px;
+    border-color: white;
+}
+button.submit-btn {
+    border-radius: 30px;
+    padding: 10px 65px;
+    color: #ab8a83;
+    border-color: white;
+    position: absolute;
+    right: 16px;
+    top: 0;
+    border: none;
+}
+/* Blandit section */
+
+.Blandit{
+	padding: 86px 0px 60px;
+
+}
+.Blandit-content h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+.Blandit-content h3 {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 33px;
+    text-align: justify;
+}
+.Blandit-content p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 33px;
+    text-align: justify;
+}
+button.custom-btn {
+    border-radius: 30px;
+    padding: 6px 38px;
+    border: none;
+    background: #dd4b2b;
+}
+.custom-button {
+    border-radius: 30px;
+    padding: 6px 38px;
+    border: none;
+    background: #4b4e73;
+}
+.Blandit-content2 h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+.Blandit-content2 h3 {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 33px;
+    text-align: justify;
+}
+.Blandit-content2 p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 33px;
+    text-align: justify;}
+.Blandit-content2{
+	text-align: center;
+}
+.custom-content {
+    margin-top: 20px;
+}
+.img-center {
+    text-align: center;
+}
+.col-md-6.img-center2 {
+    margin-top: 30px;
+    text-align: center;
+}
+		/*	Placerat sectionPlacerat section	*/
+
+.Placerat{
+	background: #d75d0e;
+	padding: 67px 0px;
+}
+.Placerat-content h2 {
+    font-weight: 300;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-right: 117px;
+    line-height: 40px;
+}
+/* footer section */
+footer{
+	background: url(../img/back02.jpg);
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+.footer-main {
+    margin: 56px;
+    font-size: 15px;
+    font-weight: 300;
+}
+.footer-main h3 {
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+}
+.footer-content {
+    color: white;
+    text-align: center;
+    margin-right: 200px;
+}
+
+
+
+/*media Query*/
+/*mobile device*/
+@media (min-width: 320px) and (max-width: 576px){
+	
+	/*hero section*/
+
+	.hero-main h2 {
+    font-size: 25px;
+    color: green;
+	}
+	.hero-main h3 {
+    font-size: 17px;
+    color: green;
+	}
+	.hero-main {
+    margin-top: 154px;
+    margin-bottom: 40px;
+
+}
+	a.navbar-brand.js-scroll-trigger {
+    display: block;
+    margin: 0 auto;
+}
+.navbar-toggler {
+    left: 41%;
+    position: absolute;
+    top: 75%;
+}
+/* Blandit section */
+	.col-md-6.img-center {
+    text-align: center;
+}
+	.col-md-6.img-center2 {
+    text-align: center;
+}
+	/*	Placerat sectionPlacerat section	*/
+
+	.Placerat-content h2 {
+    margin-right: 0px;
+    line-height: 20px;
+}
+/*footer section*/
+.footer-content {
+    margin-right: 11px;
+}
+}
+/*small device*/
+@media (min-width: 576.01px) and (max-width:768px){
+	
+	/*hero section*/
+	.hero-main h2 {
+    font-size: 33px;
+}
+/* Blandit section */
+	.col-md-6.img-center {
+    text-align: center;
+}
+	.col-md-6.img-center2 {
+    text-align: center;
+}
+/*	Placerat sectionPlacerat section	*/
+	.Placerat-content h2 {
+    margin-right: 20px;
+    line-height: 22px;
+}
+	/*footer section*/
+	.footer-content {
+    margin-right: 25px;
+}
+}
+/*medium device*/
+@media (min-width: 768.01px) and (max-width: 992px){
+	
+	/*hero sectiom*/
+
+	.hero-main h2 {
+    font-size: 39px;
+    color: white;
+    text-align: center;
+
+}
+/* Blandit section */
+	.col-md-6.img-center {
+    text-align: center;
+}
+	.col-md-6.img-center2 {
+    text-align: center;
+}
+/*	Placerat sectionPlacerat section	*/
+.Placerat-content h2 {
+    margin-right: 39px;
+}
+/*  footer section   */
+	.footer-content {
+    margin-right: 140px;
+}
+
+} 
+/*large device*/
+
+@media (min-width: 992.01px) and (max-width: 1140px){
+	
+	/*hero section*/
+
+
+	.hero-main h2 {
+    	font-size: 40px;
+}
+	/*  footer section   */
+
+
+}
+	
